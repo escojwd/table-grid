@@ -5,7 +5,7 @@
 }
 
 .time-column {
-    height: 1265px;
+    height: 1380px;
     width: 90px;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
 .time-column p {
     color: black;
     border-top: 1px dotted grey;
-    padding: 19px;
+    padding: 21.5px;
 }
 
 .time-column p:nth-child(even) {
@@ -23,13 +23,13 @@
 }
 
 .tables-div {
-    width: 900px;
-    height: calc(1265px - 1px);
+    width: 909px;
+    height: calc(1380px - 1px);
     display: grid;
     grid-gap: 1px;
     grid-auto-rows: minmax(47px, auto);
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(23, minmax(54px, auto));
+    grid-template-rows: repeat(23, minmax(59px, auto));
 }
 
 .first {
@@ -184,17 +184,9 @@
     font-size: 18px;
     font-weight: bold;
 }
-/* 
-.tables-div div p:nth-child(even) {
-    margin-top: 20px;
-}
 
-.tables-div div {
-    position: relative;
+.tables-div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
-.tables-div p {
-    position: absolute;
-    line-height: normal;
-    top: 30%;
-} */
